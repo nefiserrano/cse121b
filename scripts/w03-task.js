@@ -87,5 +87,5 @@ document.querySelector("#multiplied").textContent = numbersArray.map(number => n
 
 /* Output Sum of Multiplied by 2 Array */
 let twiceArray = numbersArray.map(number => number * 2);
-let = sumArray = twiceArray.reduce((sum, number) => sum + number);
+let sumArray = twiceArray.reduce((sum, number) => sum + number);
 document.querySelector("#sumOfMultiplied").textContent = sumArray;
